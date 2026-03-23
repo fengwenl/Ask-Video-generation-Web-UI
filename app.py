@@ -492,7 +492,7 @@ def build_ui():
 
                             reference_images_input = gr.File(
                                 file_count="multiple",
-                                label="🖼️ 参考图片（1-4张，仅 Seedance 1.0 lite i2v 支持）",
+                                label="🖼️ 参考图片（1-4张）",
                                 file_types=["image"],
                                 height=80,
                             )
